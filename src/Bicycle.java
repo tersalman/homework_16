@@ -4,9 +4,7 @@ public class Bicycle extends  Vehicle {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
+
 
     public void check(){
         System.out.println("Обслуживаем " + this.getModelName());

@@ -1,6 +1,5 @@
-public interface ServiceStation {
-    public default void check(){
-        System.out.println("Неопределенная проверка");
+public class ServiceStation {
+    public static void service(Transport transport) {
+        transport.check();
     }
-
 }
